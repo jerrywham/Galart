@@ -1,0 +1,8 @@
+div.gallery{margin:auto;width:100%;text-align:center;padding:5px;}
+.photo{margin:1px;display:inline-block;}
+.photo:hover{}
+div.gallery h1.title{}
+.photo img{opacity:0.6;border-radius:2px;box-shadow: 0 0 3px rgba(0,0,0,0.2)}
+.photo:hover img{opacity:1}
+.photo:hover{transform:scale(1.05,1.05);-webkit-transform:scale(1.05,1.05);-moz-transform:scale(1.05,1.05),-o-transform:scale(1.05,1.05); }
+.photo,.photo:hover,.photo img,.photo:hover img{transition: all 100ms;}
