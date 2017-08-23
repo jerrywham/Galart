@@ -107,7 +107,7 @@ class Galart extends plxPlugin {
 
 			return $paths;
 		}
-			$folders=recursiveDirContent(PLX_ROOT.$plxAdmin->aConf["medias"]."images");
+			$folders=recursiveDirContent(PLX_ROOT."'.$this->getParam('rep').'");
 			?>';
 
 		echo '
