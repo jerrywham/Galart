@@ -5,5 +5,6 @@
 <version>1.0</version>
 <date>02/08/2017</date>
 <site>http://warriordudimanche.net</site>
+<compatible>5.6</compatible>
 <description><![CDATA[Associer un dossier d'images à un article pour générer une galerie / un caroussel]]></description>
 </document>
